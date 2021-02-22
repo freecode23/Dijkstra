@@ -1,0 +1,7 @@
+5 
+El Paso,Phoenix(798),Duluth(670),
+Atlanta,Duluth(150),Chicago(250),
+Chicago,Duluth(930),El Paso(279),Atlanta(350),
+Duluth,El Paso(460),
+Phoenix,Chicago(562),Atlanta(1056),
+Phoenix

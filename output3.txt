@@ -1,0 +1,45 @@
+Enter num of cities: 
+Enter one City info.: 
+
+Enter one City info.: 
+
+Enter one City info.: 
+
+Enter one City info.: 
+
+Enter one City info.: 
+
+Enter one City info.: 
+
+Enter one City info.: 
+
+Enter one City info.: 
+Enter source city name: 
+
+Print the graph before Dijkstra algorithm
+
+Heap size = 8
+
+City Name      d Value     PI             Arrival City List
+Buffalo        20000       No Parent      Albany(290),Columbus(550),Washington(1000),
+Albany         20000       No Parent      Boston(350),
+Boston         20000       No Parent      New York(150),
+New York       20000       No Parent      Washington(350),
+Columbus       20000       No Parent      Seattle(920),Washington(1200),
+San Diego      20000       No Parent      Columbus(250),
+Seattle        20000       No Parent      Buffalo(250),Columbus(190),San Diego(450),
+Washington     20000       No Parent      New York(150),San Diego(780),
+
+Print the Dijkstra algorithm running result
+
+Source City: Seattle
+
+Arrival City  Lowest Price   Shortest Path  
+Seattle        0              Seattle
+Columbus       190            Seattle->Columbus
+Buffalo        250            Seattle->Buffalo
+San Diego      450            Seattle->San Diego
+Albany         540            Seattle->Buffalo->Albany
+Boston         890            Seattle->Buffalo->Albany->Boston
+New York       1040           Seattle->Buffalo->Albany->Boston->New York
+Washington     1250           Seattle->Buffalo->Washington

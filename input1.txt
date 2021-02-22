@@ -1,0 +1,5 @@
+3
+New York,,
+Washington,New York(200),
+Los Angeles,New York(1300),Washington(1000),
+Los Angeles

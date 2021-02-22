@@ -1,0 +1,61 @@
+Enter num of cities: 
+Enter one City info.: 
+oneLine: Buffalo,Washington(1000),Columbus(550),Albany(290),
+token: Buffalo
+
+Enter one City info.: 
+oneLine: Albany,Boston(350),
+token: Albany
+
+Enter one City info.: 
+oneLine: Boston,New York(150),
+token: Boston
+
+Enter one City info.: 
+oneLine: New York,Washington(350),
+token: New York
+
+Enter one City info.: 
+oneLine: Columbus,Washington(1200),Seattle(920),
+token: Columbus
+
+Enter one City info.: 
+oneLine: San Diego,Columbus(250),
+token: San Diego
+
+Enter one City info.: 
+oneLine: Seattle,San Diego(450),Columbus(190),Buffalo(250),
+token: Seattle
+
+Enter one City info.: 
+oneLine: Washington,New York(150),San Diego(780),
+token: Washington
+Enter source city name: 
+
+Print the graph before Dijkstra algorithm
+
+Heap size = 8
+
+City Name     d Value     PI             Arrival City List
+Buffalo        20000       No Parent      Albany(290), Columbus(550), Washington(1000), 
+Albany         20000       No Parent      Boston(350), 
+Boston         20000       No Parent      New York(150), 
+New York       20000       No Parent      Washington(350), 
+Columbus       20000       No Parent      Seattle(920), Washington(1200), 
+San Diego      20000       No Parent      Columbus(250), 
+Seattle        20000       No Parent      Buffalo(250), Columbus(190), San Diego(450), 
+Washington     20000       No Parent      New York(150), San Diego(780), 
+
+Print the Dijkstra algorithm running result
+
+Source City: Seattle
+
+Arrival City Lowest Price   Shortest path  
+Seattle        0              Seattle        
+Columbus       190            Seattle->Columbus       
+Buffalo        250            Seattle->Buffalo        
+San Diego      450            Seattle->San Diego      
+Albany         540            Seattle->Buffalo->Albany         
+Boston         890            Seattle->Buffalo->Albany->Boston         
+New York       1040           Seattle->Buffalo->Albany->Boston->New York       
+Washington     1250           Seattle->Buffalo->Washington     

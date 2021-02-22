@@ -1,0 +1,85 @@
+Enter num of cities: 
+Enter one City info.: 
+oneLine: Seattle,New York(1320),Salt Lake(325),
+token: Seattle
+
+Enter one City info.: 
+oneLine: Salt Lake,Phoenix(450),Santa Fe(379),
+token: Salt Lake
+
+Enter one City info.: 
+oneLine: Phoenix,Seattle(470),
+token: Phoenix
+
+Enter one City info.: 
+oneLine: Santa Fe,Phoenix(275),Austin(572),
+token: Santa Fe
+
+Enter one City info.: 
+oneLine: Denver,Salt Lake(350),Santa Fe(180),Dallas(475),Chicago(620),
+token: Denver
+
+Enter one City info.: 
+oneLine: Austin,Dallas(350),
+token: Austin
+
+Enter one City info.: 
+oneLine: Dallas,Austin(250),Miami(560),Denver(550),Atlanta(780),
+token: Dallas
+
+Enter one City info.: 
+oneLine: Atlanta,Washington(420),Miami(320),Dallas(860),
+token: Atlanta
+
+Enter one City info.: 
+oneLine: Chicago,Denver(570),
+token: Chicago
+
+Enter one City info.: 
+oneLine: Washington,New York(250),
+token: Washington
+
+Enter one City info.: 
+oneLine: New York,Chicago(320),
+token: New York
+
+Enter one City info.: 
+oneLine: Miami,Atlanta(457),
+token: Miami
+Enter source city name: 
+
+Print the graph before Dijkstra algorithm
+
+Heap size = 12
+
+City Name     d Value     PI             Arrival City List
+Seattle        20000       No Parent      New York(1320), Salt Lake(325), 
+Salt Lake      20000       No Parent      Phoenix(450), Santa Fe(379), 
+Phoenix        20000       No Parent      Seattle(470), 
+Santa Fe       20000       No Parent      Austin(572), Phoenix(275), 
+Denver         20000       No Parent      Chicago(620), Dallas(475), Salt Lake(350), Santa Fe(180), 
+Austin         20000       No Parent      Dallas(350), 
+Dallas         20000       No Parent      Atlanta(780), Austin(250), Denver(550), Miami(560), 
+Atlanta        20000       No Parent      Dallas(860), Miami(320), Washington(420), 
+Chicago        20000       No Parent      Denver(570), 
+Washington     20000       No Parent      New York(250), 
+New York       20000       No Parent      Chicago(320), 
+Miami          20000       No Parent      Atlanta(457), 
+
+Print the Dijkstra algorithm running result
+
+Source City: Seattle
+
+Arrival City Lowest Price   Shortest path  
+Seattle        0              Seattle        
+Salt Lake      325            Seattle->Salt Lake      
+Santa Fe       704            Seattle->Salt Lake->Santa Fe       
+Phoenix        775            Seattle->Salt Lake->Phoenix        
+Austin         1276           Seattle->Salt Lake->Santa Fe->Austin         
+New York       1320           Seattle->New York       
+Dallas         1626           Seattle->Salt Lake->Santa Fe->Austin->Dallas         
+Chicago        1640           Seattle->New York->Chicago        
+Denver         2176           Seattle->Salt Lake->Santa Fe->Austin->Dallas->Denver         
+Miami          2186           Seattle->Salt Lake->Santa Fe->Austin->Dallas->Miami          
+Atlanta        2406           Seattle->Salt Lake->Santa Fe->Austin->Dallas->Atlanta        
+Washington     2826           Seattle->Salt Lake->Santa Fe->Austin->Dallas->Atlanta->Washington     

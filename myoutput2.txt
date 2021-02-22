@@ -1,0 +1,55 @@
+Enter num of cities: 
+Enter one City info.: 
+oneLine: El Paso,Phoenix(798),Duluth(670),
+token: El Paso
+
+Enter one City info.: 
+oneLine: Atlanta,Duluth(150),Chicago(250),
+token: Atlanta
+
+Enter one City info.: 
+oneLine: Chicago,Duluth(930),El Paso(279),Atlanta(350),
+token: Chicago
+
+Enter one City info.: 
+oneLine: Duluth,El Paso(460),
+token: Duluth
+
+Enter one City info.: 
+oneLine: Phoenix,Chicago(562),Atlanta(1056),
+token: Phoenix
+Enter source city name: 
+
+Print the graph before Dijkstra algorithm
+
+Heap size = 5
+
+City Name     d Value     PI             Arrival City List
+El Paso        20000       No Parent      Duluth(670), Phoenix(798), 
+Atlanta        20000       No Parent      Chicago(250), Duluth(150), 
+Chicago        20000       No Parent      Atlanta(350), Duluth(930), El Paso(279), 
+Duluth         20000       No Parent      El Paso(460), 
+Phoenix        20000       No Parent      Atlanta(1056), Chicago(562), 
+vptr  name  : Atlanta
+vptr.pi : Phoenix
+vptr  name  : Chicago
+vptr.pi : Phoenix
+vptr  name  : Atlanta
+vptr.pi : Chicago
+vptr  name  : Duluth
+vptr.pi : Chicago
+vptr  name  : El Paso
+vptr.pi : Chicago
+vptr  name  : Duluth
+vptr.pi : Atlanta
+
+Print the Dijkstra algorithm running result
+
+Source City: Phoenix
+
+Arrival City Lowest Price   Shortest path  
+Phoenix        0              Phoenix        
+Chicago        562            Phoenix->Chicago        
+El Paso        841            Phoenix->Chicago->El Paso        
+Atlanta        912            Phoenix->Chicago->Atlanta        
+Duluth         1062           Phoenix->Chicago->Atlanta->Duluth         

@@ -1,0 +1,14 @@
+12
+Seattle,New York(1320),Salt Lake(325),
+Salt Lake,Phoenix(450),Santa Fe(379),
+Phoenix,Seattle(470),
+Santa Fe,Phoenix(275),Austin(572),
+Denver,Salt Lake(350),Santa Fe(180),Dallas(475),Chicago(620),
+Austin,Dallas(350),
+Dallas,Austin(250),Miami(560),Denver(550),Atlanta(780),
+Atlanta,Washington(420),Miami(320),Dallas(860),
+Chicago,Denver(570),
+Washington,New York(250),
+New York,Chicago(320),
+Miami,Atlanta(457),
+Seattle

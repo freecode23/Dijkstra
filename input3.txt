@@ -1,0 +1,10 @@
+8
+Buffalo,Washington(1000),Columbus(550),Albany(290),
+Albany,Boston(350),
+Boston,New York(150),
+New York,Washington(350),
+Columbus,Washington(1200),Seattle(920),
+San Diego,Columbus(250),
+Seattle,San Diego(450),Columbus(190),Buffalo(250),
+Washington,New York(150),San Diego(780),
+Seattle
