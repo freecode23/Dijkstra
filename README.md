@@ -60,7 +60,7 @@ Inside the Graph class, you have the following attibutes and functions defined.
 Atrribute's Name | Data Type | Description 
 ------------ | ------------- |---------------
 numOfNode | int |This represents the number of nodes (departure city) inside the graph 
-numOfNode | MinHeap | 	This is the graph's adjacency list, which is represented by a MinHeap (a 1D array of LinkedList)
+cityHeap | MinHeap | 	This is the graph's adjacency list, which is represented by a MinHeap (a 1D array of LinkedList)
 
 ## Other Requirements <br/>
 you are NOT allowed to use any predefined data structures (such as vector, list in C++ STL etc.) except arrays and strings, you need to build your own LinkedList and heap data structures and operations associated with it (such as insertion, extraction, searching, etc).Your code should be well documented and commented.
