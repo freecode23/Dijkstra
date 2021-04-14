@@ -1,4 +1,7 @@
+![image](https://raw.githubusercontent.com/freecode23/Dijkstra/master/flightPathImage.png)
+
 ### 1. Task Description ###
+
 
 Implement the Dijkstra's shotest path algorithm to find the cheapest flight path from a source city to all other cities.
 The example input is given as follows (not real air ticket prices, for testing purpose only):
