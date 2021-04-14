@@ -34,11 +34,22 @@ so you will need to apply Dijkstra's shortest path algorithm to compute the chea
 ### LinkedList <br/>
 Inside the LinkedList class, you have the following ArrCity structure defined. It represents the node of the LinkedList which is an arrival city with city's name and airfair price from a specific departure city.
 
-````struct ArrCity
-````{
-    ````string arrCityName;
-    ````int price;
-    ````struct ArrCity* next;
-````};
+    struct ArrCity
+    {
+        string arrCityName;
+        int price;
+        struct ArrCity* next;
+    };
+<br/>
 
+##  MinHeap <br/>
+Inside the MinHeap class, you have the following City structure defined. It represents a departure city, which is also the node of the Graph. For each departure city, it has a cityName and three other attributes:
 
+    struct City
+    {
+        string cityName;
+        int d;
+        struct City* pi;
+        LinkedList* arrCityList;
+    };
+<br/>
