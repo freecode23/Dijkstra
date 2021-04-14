@@ -30,8 +30,8 @@ Tucson,,<br/>
 The last line of the input represents the source city, for above input example, it is Phoenix,
 so you will need to apply Dijkstra's shortest path algorithm to compute the cheapest flight route from Phoenix to any other cities.
 
-##2. Class description##
-LinkedList
+## 2. Class description ##<br/>
+### LinkedList ###<br/>
 Inside the LinkedList class, you have the following ArrCity structure defined. It represents the node of the LinkedList which is an arrival city with city's name and airfair price from a specific departure city.
 
 ````struct ArrCity
