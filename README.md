@@ -1,4 +1,4 @@
-## 1. Task Description ##
+### 1. Task Description ###
 
 Implement the Dijkstra's shotest path algorithm to find the cheapest flight path from a source city to all other cities.
 The example input is given as follows (not real air ticket prices, for testing purpose only):
@@ -30,7 +30,7 @@ Tucson,,<br/>
 The last line of the input represents the source city, for above input example, it is Phoenix,
 so you will need to apply Dijkstra's shortest path algorithm to compute the cheapest flight route from Phoenix to any other cities.
 
-## 2. Class description <br/>
+### 2. Class description <br/>
 #### LinkedList <br/>
 Inside the LinkedList class, you have the following ArrCity structure defined. It represents the node of the LinkedList which is an arrival city with city's name and airfair price from a specific departure city.
 
@@ -62,5 +62,5 @@ Atrribute's Name | Data Type | Description
 numOfNode | int |This represents the number of nodes (departure city) inside the graph 
 cityHeap | MinHeap | 	This is the graph's adjacency list, which is represented by a MinHeap (a 1D array of LinkedList)
 
-## Other Requirements <br/>
+### Other Requirements <br/>
 you are NOT allowed to use any predefined data structures (such as vector, list in C++ STL etc.) except arrays and strings, you need to build your own LinkedList and heap data structures and operations associated with it (such as insertion, extraction, searching, etc).Your code should be well documented and commented.
