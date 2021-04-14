@@ -1,4 +1,4 @@
-## Dijkstra's Shortest-Path Algorithm ##
+# Dijkstra's Shortest-Path Algorithm # 
 ![image](https://raw.githubusercontent.com/freecode23/Dijkstra/master/flightPathImage.png)
 
 ### 1. Task Description ###
