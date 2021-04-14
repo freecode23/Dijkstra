@@ -1,3 +1,4 @@
+## Dijkstra's shotest path algorithm ##
 ![image](https://raw.githubusercontent.com/freecode23/Dijkstra/master/flightPathImage.png)
 
 ### 1. Task Description ###
