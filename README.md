@@ -1,7 +1,7 @@
-## Task Description ##
+## 1. Task Description ##
 
 Implement the Dijkstra's shotest path algorithm to find the cheapest flight path from a source city to all other cities.
-The example input is given as follows (not real air ticket prices, for testing purpose only)
+The example input is given as follows (not real air ticket prices, for testing purpose only):
 
 5<br/>
 Phoenix,Chicago(562),Atlanta(1156),<br/>
@@ -31,7 +31,7 @@ The last line of the input represents the source city, for above input example, 
 so you will need to apply Dijkstra's shortest path algorithm to compute the cheapest flight route from Phoenix to any other cities.
 
 ## 2. Class description <br/>
-### LinkedList <br/>
+#### LinkedList <br/>
 Inside the LinkedList class, you have the following ArrCity structure defined. It represents the node of the LinkedList which is an arrival city with city's name and airfair price from a specific departure city.
 
     struct ArrCity
@@ -42,7 +42,7 @@ Inside the LinkedList class, you have the following ArrCity structure defined. I
     };
 <br/>
 
-###  MinHeap <br/>
+####  MinHeap <br/>
 Inside the MinHeap class, you have the following City structure defined. It represents a departure city, which is also the node of the Graph. For each departure city, it has a cityName and three other attributes:
 
     struct City
@@ -54,7 +54,7 @@ Inside the MinHeap class, you have the following City structure defined. It repr
     };
 <br/>
 
-### Graph <br/>
+#### Graph <br/>
 Inside the Graph class, you have the following attibutes and functions defined.  
 
 Atrribute's Name | Data Type | Description 
