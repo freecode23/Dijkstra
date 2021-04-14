@@ -53,3 +53,11 @@ Inside the MinHeap class, you have the following City structure defined. It repr
         LinkedList* arrCityList;
     };
 <br/>
+
+## Graph <br/>
+Inside the Graph class, you have the following attibutes and functions defined.  
+
+Atrribute's Name | Data Type | Description 
+------------ | ------------- |---------------
+numOfNode | int |This represents the number of nodes (departure city) inside the graph 
+numOfNode | MinHeap | 	This is the graph's adjacency list, which is represented by a MinHeap (a 1D array of LinkedList)
